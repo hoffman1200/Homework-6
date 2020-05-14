@@ -26,7 +26,6 @@ a {
 }
 
 #weatherCard {
-    display: none;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -39,13 +38,16 @@ a {
     justify-content: center;
 }
 
-.forecast {
+#cardDisplay {
     display: none;
+}
+
+#buttonsList {
+    /* display: none; */
 }
 
 .container-fluid {
     padding-bottom: 70px;
-    height: 600px;
 }
 
 /* .col-sm-4 {
@@ -56,3 +58,4 @@ footer {
     text-align: center;
     clear: both;
 }
+

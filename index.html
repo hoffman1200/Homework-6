@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>FSC Weather</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
@@ -30,12 +30,9 @@
                         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-cloud-sun"></i></button>
                     </form>
                 <div class="row" id="lastSearch">
-                    <div class="card" style="width: 18rem;">
-                        <!-- <ul class="list-group list-group-flush"> -->
-                          <!-- <li class="list-group-item"></li> -->
-
-                        </ul>
-                      </div>
+                    <div class="card" style="width: 18rem;" id="buttonsList">
+                        <!-- Buttons of last search goes here -->
+                    </div>
                 </div>
     
                 </div>
@@ -45,7 +42,7 @@
 
             <div class="col-lg-8" id="allWeather">
                 <div class="row" id="weatherCard">
-                    <div class="card" style="width: 98%;">
+                    <div class="card" style="width: 98%;" id="cardDisplay">
 
                         <div class="row">
 
@@ -55,6 +52,7 @@
                                   <p class="card-text" id="tempResult"></p>
                                   <p class="card-text" id="humidityResult"></p>
                                   <p class="card-text" id="windResult"></p>
+                                  <p class="card-tet" id="UVIndexResult"></p>
                                 </div>
     
                             </div>
@@ -66,9 +64,8 @@
                 </div>
 
                 <!-- 5 Day Forecast -->
-                <div class="row" id="row5day">
-                    <h2 class="forecast">5-Day Forecast:</h2>
-                </div>
+                <div class="row" id="row5day"></div>
+
                 <div class="row" id="rowCards">
                     <!-- Cards Goes Here -->
                 </div>
@@ -81,7 +78,7 @@
     <footer>
         <div class="col-12">
             <hr class="light" color="gray">
-            <h5 id="CopyR">&copy; Fernando Soto Calis</h5>
+            <h5 id="CopyR">&copy; FSC Web Design</h5>
         </div>
     </footer>
 
@@ -93,3 +90,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<!-- Fernando Soto Calis @hoffman1200 -->
