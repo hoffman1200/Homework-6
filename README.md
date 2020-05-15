@@ -24,10 +24,10 @@
 
 ## Repository Link
 
-
+https://github.com/hoffman1200/Homework-6
 
 ## Web Site Link
 
-
+https://hoffman1200.github.io/Homework-6/
 
 Fernando Soto Calis @hoffman1200
