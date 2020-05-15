@@ -15,7 +15,7 @@ var forecastTemp = {};
 var forecastHum = {};
 var today = moment().format('DD' + "/" + 'MM' + '/' + 'YYYY');
 var APIKey = "&units=metric&APPID=123babda3bc150d180af748af99ad173";
-var url =  "http://api.openweathermap.org/data/2.5/weather?q=";
+var url =  "https://api.openweathermap.org/data/2.5/weather?q=";
 var citiesArray = JSON.parse(localStorage.getItem("Saved City")) || [];
 
 
